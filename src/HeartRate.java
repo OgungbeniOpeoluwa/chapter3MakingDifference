@@ -1,5 +1,3 @@
-package chapter3;
-
 public class HeartRate {
 
     private String firstName;

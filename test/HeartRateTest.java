@@ -1,5 +1,3 @@
-package chapter3;
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,9 +11,9 @@ class HeartRateTest {
     }
     @Test
     public void testYearOfBirth(){
-        HealthRecord healthRecord = new HealthRecord("joy", "joseph", "female", 23, "july", 1999, 50,65);
-        healthRecord.setYearOfBirth(1998);
-        assertEquals(1998,healthRecord.getYearOfBirth());
+        HeartRate heartRate= new HeartRate("joy", "joseph", 23, "july", 1999);
+        heartRate.setYearOfBirth(1998);
+        assertEquals(1998,heartRate.getYearOfBirth());
 
     }
     @Test
